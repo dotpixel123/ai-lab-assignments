@@ -39,8 +39,8 @@ def water_jug_bfs(capacity_x, capacity_y, target):
     return None  # No solution found
 
 # Example usage
-capacity_x = 4  # Capacity of first jug
-capacity_y = 3  # Capacity of second jug
+capacity_x = 3  # Capacity of first jug
+capacity_y = 4 # Capacity of second jug
 target = 2      # Desired amount
 
 solution = water_jug_bfs(capacity_x, capacity_y, target)
